@@ -13,7 +13,7 @@
 * __Time Steps__: The system evolves in discrete steps, with all cells updating simultaneously.
 
 ### Game of Life: The Rules
-
+* TODO.
 ### Requirements
 * `Rust rustc 1.81.0`.
 * `Cargo`.
