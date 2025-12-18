@@ -15,7 +15,7 @@
 ### Game of Life: The Rules
 
 ### Requirements
-* `Rust rustc 1.81.0 (eeb90cda1 2024-09-04)`.
+* `Rust rustc 1.81.0`.
 * `Cargo`.
 * Text Editor for any updates/changes you want to make.
 
