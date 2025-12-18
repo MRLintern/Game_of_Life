@@ -20,4 +20,6 @@
 * Text Editor for any updates/changes you want to make.
 
 ### Running the Program
-*
+* `$ cd GameOfLife`
+* `$ cargo build`
+* `$ cargo run`
