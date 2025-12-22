@@ -13,7 +13,30 @@
 * __Time Steps__: The system evolves in discrete steps, with all cells updating simultaneously.
 
 ### Game of Life: The Rules
-* TODO.
+### The Setup
+* The game is played on an infinite 2D grid of square cells.
+* Each cell is either alive or dead.
+* Time advances in discrete steps (generations).
+* Each cell interacts with its 8 neighbors (horizontal, vertical, diagonal).
+
+#### The Rules (applied simultaneously each generation)
+
+1. Underpopulation
+* A live cell with fewer than 2 live neighbors dies.
+
+2. Survival
+* A live cell with 2 or 3 live neighbors stays alive.
+
+3. Overpopulation
+* A live cell with more than 3 live neighbors dies.
+
+4. Reproduction
+* A dead cell with exactly 3 live neighbors becomes alive.
+
+##### Key Notes
+* No randomness, no players — the system evolves purely from the initial state.
+* Simple rules lead to complex behavior: oscillators, spaceships, still lifes, and chaotic patterns.
+  
 ### Requirements
 * `Rust rustc 1.81.0`.
 * `Cargo`.
