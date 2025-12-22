@@ -21,16 +21,16 @@
 
 #### The Rules (applied simultaneously each generation)
 
-1. Underpopulation
+1. __Underpopulation__
 * A live cell with fewer than 2 live neighbors dies.
 
-2. Survival
+2. __Survival__
 * A live cell with 2 or 3 live neighbors stays alive.
 
-3. Overpopulation
+3. __Overpopulation__
 * A live cell with more than 3 live neighbors dies.
 
-4. Reproduction
+4. __Reproduction__
 * A dead cell with exactly 3 live neighbors becomes alive.
 
 ##### Key Notes
